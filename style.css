@@ -1,0 +1,573 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0-modified | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: "jaf-domus", sans-serif;
+  font-weight: 400;
+  font-variant-numeric: lining-nums;
+  font-display: block;
+  vertical-align: baseline; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal; }
+
+
+img {
+  vertical-align: middle; }
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0; }
+
+textarea {
+  resize: vertical; }
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  font-family: "jaf-domus";
+  outline: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+a,
+button {
+  outline: none !important; }
+
+.clearfix {
+  clear: both; }
+
+img {
+  max-width: 100%; }
+
+  
+  
+/*--------------__O QUE IMPORTA---___-----*/
+
+.senior-logo {
+  display: block;
+  position: absolute;
+  bottom: 100px;
+  right: 100px;
+  width: 105px; }
+  
+  
+.link-global {
+  width: 130%;
+  height: 120px;
+  position: absolute;
+  z-index: 2;
+  top: auto;
+  left: 0;
+  bottom: 27px;
+  pointer-events: all;
+  transform: scale(0.43) skew(-58deg, 30deg) translate(51px, 65px);
+  border-radius: 20px; }
+
+.orange-line {
+  width: 40px;
+  height: 7px;
+  background-color: #e46414; }
+
+.modal-align .orange-line {
+  margin-bottom: 10px;
+  width: 60px; }
+  
+  .bkg-fixed-opacity {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  display: none;
+  z-index: 2; }
+  .bkg-fixed-opacity.open {
+    display: block; }
+
+.icons_secundary:hover p {
+  color: #EB5B29 !important; }
+
+.img_absolute {
+  margin: 0 auto;
+  padding: 0 15px;
+  position: absolute;
+  top: 47px;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  /* width: 100%; */
+  display: block;
+  max-width: 100%;
+  height: 520px; }
+
+  
+.section-main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 0;
+  padding: 0; }
+  .section-main .container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    background: url(images/nuvem.svg) no-repeat center center; }
+  .section-main .content-main-infografico {
+    position: relative;
+    height: 805px; }
+    .section-main .content-main-infografico p {
+      font-family: "jaf-domus";
+      font-size: 18px;
+      line-height: 16px;
+      text-align: center;
+      color: #3B3E42;
+      position: absolute;
+      z-index: 1;
+      font-weight: 600; }
+    .section-main .content-main-infografico .content-icon {
+      position: absolute;
+      pointer-events: none;
+      padding: 0;
+      margin: 0;
+      width: 130px;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%) scale(1);
+      transition: 1s ease-in-out;
+      opacity: 0; }
+	  
+
+	  
+      .section-main .content-main-infografico .content-icon.active {
+        opacity: 1;
+        top: 50%; }
+      .section-main .content-main-infografico .content-icon .icon {
+        transition: 0.3s cubic-bezier(0.57, -0.38, 0.46, 1.37);
+        filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.2)); }
+      .section-main .content-main-infografico .content-icon.hover .icon {
+        transform: scale(1.10); }
+    .section-main .content-main-infografico .path {
+      position: absolute; }
+    .section-main .content-main-infografico .icon-title {
+      top: 0px;
+      left: 0px;
+      text-align: left;
+      font-weight: 700; }
+      .section-main .content-main-infografico .icon-title.align-left {
+        text-align: left; }
+      .section-main .content-main-infografico .icon-title.align-right {
+        text-align: right; }
+      .section-main .content-main-infografico .icon-title.left {
+        left: auto;
+        right: 80%;
+        white-space: nowrap; }
+      .section-main .content-main-infografico .icon-title. {
+        right: auto;
+        left: 100%;
+        width: 100%; }
+
+      .section-main .content-main-infografico .icon-title.bottom {
+        top: auto;
+        bottom: -10px; }
+      .section-main .content-main-infografico .icon-title.last {
+        bottom: -40px;
+        left: 27%; }
+      .section-main .content-main-infografico .icon-title.up {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: #000000;
+        transform: rotateX(-54deg) rotateZ(-43deg);
+		perspective: 100px; } 
+  
+  
+/*ITENS DO FLUXOGRAMA*/
+
+/*ITEM 1 - USUÁRIO*/
+.section-main .content-main-infografico .item-1 {
+      width: 110px;
+      margin-left: -450px;
+      margin-top: 200px; }
+	   .section-main .content-main-infografico .item-1 .icon-title-up {
+	  font-family: 'Lexend', sans-serif;
+	  font-size: 14px;
+	  color: #000000;
+	  font-weight:600;
+      margin-left: 60px;
+	  margin-top: 100px;
+	  line-height:1;
+	  transform: rotateX(-56deg) rotateZ(-46deg);
+	  perspective: 100px;
+	   }		
+
+		
+	   
+/*ITEM 2 - HTTPS*/
+    .section-main .content-main-infografico .item-2 {
+      width: 105px;
+      margin-left: -357px;
+      margin-top: 145px; }
+      .section-main .content-main-infografico .item-2 .icon-title-up {
+	  font-family: 'Lexend', sans-serif;
+	  font-size: 14px;
+	  color: #000000;
+	  font-weight:600;  
+	  margin-left: 60px;
+      margin-top: 115px; 
+      transform: rotateX(-56deg) rotateZ(-46deg);
+	  perspective: 100px;
+      line-height:1;	  
+	  }
+
+/*ITEM 3 - FIREWALL*/ 
+ .section-main .content-main-infografico .item-3 {
+	 width: 125px;
+      margin-left: -254px;
+      margin-top: 89px; }
+	  .section-main .content-main-infografico .item-3 .icon-title-up {
+	  font-family: 'Lexend', sans-serif;
+	  font-size: 14px;
+	  color: #000000;
+	  font-weight:600;
+      margin-left: 70px;
+      margin-top: 77px; 
+	  transform: rotateX(-56deg) rotateZ(-46deg);
+	  perspective: 100px;
+	   }
+	   
+/*ITEM 4 - WAF*/
+ .section-main .content-main-infografico .item-4 {
+	  width: 100px;
+      margin-left: -164px;
+      margin-top: 42px; }
+	 .section-main .content-main-infografico .item-4 .icon-title-up { 
+	  font-family: 'Lexend', sans-serif;
+	  font-size: 14px;
+	  color: #000000;
+	  font-weight:600;
+      margin-left: 60px;
+      margin-top: 80px; 
+	  transform: rotateX(-56deg) rotateZ(-45deg);
+	  perspective: 100px;  } 
+	   
+	 
+/*ITEM 6 - CAMADAS DE ACESSO*/
+    .section-main .content-main-infografico .item-6 {
+     width: 275px;
+      margin-left: 28px;
+      margin-top: -43px; }
+      .section-main .content-main-infografico .item-6 .icon-title-min {
+		font-size: 20px;  
+        margin-top: 147px;
+        bottom: auto;
+        left: -25px; 
+		transform: rotateX(56deg) rotateZ(46deg);
+		perspective: 1000px; 
+		}
+		
+		/*ITEM 5 - AMBIENTES*/
+ .section-main .content-main-infografico .item-5 {
+	  width: 294px;
+      margin-left: 227px;
+      margin-top: 95px; }
+	  .section-main .content-main-infografico .item-5 .icon-title-min {
+      margin-left: 165px;
+      margin-top: 165px; 
+	  transform: rotateX(-56deg) rotateZ(-45deg);
+	  perspective: 100px; 
+	  font-size:24px; 
+	  } 
+
+/*ITEM 7 - SERVIDORES WEB*/
+.section-main .content-main-infografico .item-7 {
+      width: 245px;
+      margin-left: 380px;
+      margin-top: 7px; }
+     .section-main .content-main-infografico .item-7 .icon-title-min {
+        top: 150px;
+        bottom: auto;
+        left: 75px; 
+		transform: rotateX(55deg) rotateZ(46deg);
+		perspective: 1000px; 
+		}
+		
+/*ITEM 8 - SERVIDORES MIDDLEWARE*/
+.section-main .content-main-infografico .item-8 {
+      width: 200px;
+      margin-left: 160px;
+      margin-top:  -140px; }
+     .section-main .content-main-infografico .item-8 .icon-title-min {
+        top: 100px;
+        bottom: auto;
+        left: -30px; 
+		transform: rotateX(55deg) rotateZ(46deg);
+		perspective: 1000px; 
+		}
+		
+/*ITEM 9 - BANCO DE DADOS*/
+.section-main .content-main-infografico .item-9 {
+      width: 225px;
+      margin-left: 363px;
+      margin-top: -183px; }
+     .section-main .content-main-infografico .item-9 .icon-title-min {
+        top: 158px;
+        bottom: auto;
+        left: 60px; 
+		transform: rotateX(55deg) rotateZ(46deg);
+		perspective: 1000px; 
+		}
+
+/*--------APLICAÇÕES---------*/
+
+
+/*ITEM 10 - GESTÃO EMPRESARIAL*/
+.section-main .content-main-infografico .item-10 {
+	  width: 83px;
+      margin-left: -205px;
+      margin-top: -135px; }
+      .section-main .content-main-infografico .item-10 .icon-title-min {
+		font-family: 'Lexend', sans-serif;
+		font-size: 12px;
+		color: #000000;
+		font-weight:500;
+        top: 75px;
+        bottom: auto;
+        left: -47px; 
+		transform: rotateX(55deg) rotateZ(46deg);
+		perspective: 1000px; 
+		}
+
+/*ITEM 11 - EDOCS*/
+.section-main .content-main-infografico .item-11 {
+	  width: 83px;
+      margin-left: -112px;
+      margin-top: -190px; }
+     .section-main .content-main-infografico .item-11 .icon-title-min {
+		font-size: 14px;
+		color: #000000;
+        top: 88px;
+        bottom: auto;
+        left: -10px; 
+		transform: rotateX(55deg) rotateZ(46deg);
+		perspective: 1000px; 
+		}
+		
+/*ITEM 12 - GESTÃO DE PESSOAS*/
+.section-main .content-main-infografico .item-12 {
+      width: 83px;
+      margin-left: -210px;
+      margin-top: -240px; }
+     .section-main .content-main-infografico .item-12 .icon-title-min {
+		font-family: 'Lexend', sans-serif;
+		font-size: 12px;
+		color: #000000;
+		font-weight:500;
+        top: 65px;
+        bottom: auto;
+        left: -41px; 
+		transform: rotateX(55deg) rotateZ(46deg);
+		perspective: 1000px; 
+		}
+
+/*ITEM 13 - PERFORMANCE CORPORATIVA*/
+.section-main .content-main-infografico .item-13 {
+	  width: 83px;
+      margin-left: -291px;
+      margin-top: -189px; }
+     .section-main .content-main-infografico .item-13 .icon-title-min {
+		font-family: 'Lexend', sans-serif;
+		font-size: 12px;
+		color: #000000;
+		font-weight:500;
+        top: 75px;
+        bottom: auto;
+        left: -29px; 
+		transform: rotateX(55deg) rotateZ(46deg);
+		perspective: 1000px; 
+		}
+
+/*ITEM 14 - ACESSO E SEGURANÇA*/
+.section-main .content-main-infografico .item-14 {
+	  width: 93px;
+      margin-left: -300px;
+      margin-top: -288px; }
+     .section-main .content-main-infografico .item-14 .icon-title-min {
+		font-family: 'Lexend', sans-serif;
+		font-size: 12px;
+		color: #000000;
+		font-weight:500;
+        top: 55px;
+        bottom: auto;
+        left: -15px; 
+		transform: rotateX(55deg) rotateZ(46deg);
+		perspective: 1000px; 
+		}
+		
+/*ITEM 15 - GESTÃO DE LOGÍSTICA*/
+.section-main .content-main-infografico .item-15 {
+	  width: 83px;
+      margin-left: -380px;
+      margin-top: -224px; }
+     .section-main .content-main-infografico .item-15 .icon-title-min {
+		font-family: 'Lexend', sans-serif;
+		font-size: 12px;
+		color: #000000;
+		font-weight:500;
+        top: 58px;
+        bottom: auto;
+        left: -39px; 
+		transform: rotateX(55deg) rotateZ(46deg);
+		perspective: 1000px; 
+		}
+		
+
+/*-------------------------MODAL---------------------*/
+
+.modal-align {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10; }
+  .modal-align.open {
+    display: flex; }
+	
+  .modal-align .modal-container-ext {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 50px 30px 65px;
+    max-width: 800px; }
+	
+    .modal-align .modal-container-ext .modal-container-int {
+      position: relative; }
+	  
+      .modal-align .modal-container-ext .modal-container-int .senior-logo-modal {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        height: 42px;
+        width: 100px; }
+		
+        .modal-align .modal-container-ext .modal-container-int .senior-logo-modal img {
+          filter: grayscale(1) brightness(10); }
+		  
+      .modal-align .modal-container-ext .modal-container-int .saiba-mais {
+        margin-top: 130px;
+        color: #e46414;
+        display: block;
+        text-decoration: none;
+        width: 80px; }
+		
+        .modal-align .modal-container-ext .modal-container-int .saiba-mais:hover {
+          text-decoration: underline; }
+		  
+      .modal-align .modal-container-ext .modal-container-int .close-button {
+        margin-top: 30px;
+		display: block;
+		position: absolute;
+        bottom: 0px;
+		font-size: 20px;
+		color: #ffffff;
+        right: 10px;
+        max-width: 64px;
+        cursor: pointer;		}
+		
+        .modal-align .modal-container-ext .modal-container-int .close-button:hover{
+		position: absolute;
+        bottom: 0px;
+		font-size: 20px;
+		color: #E8E8E8;
+        right: 10px;
+        max-width: 64px;
+        cursor: pointer;	
+		}
+		  
+          .modal-align .modal-container-ext .modal-container-int .close-button img:hover {
+            filter: grayscale(1) brightness(1); }
+			
+      .modal-align .modal-container-ext .modal-container-int .modal-content {
+        display: none; }
+		
+        .modal-align .modal-container-ext .modal-container-int .modal-content.open {
+          display: block; }
+		  
+        .modal-align .modal-container-ext .modal-container-int .modal-content p {
+          color: white;
+          font-size: 20px;
+          line-height: 30px;
+          font-weight: 300; }
+		  
+        .modal-align .modal-container-ext .modal-container-int .modal-content ul {
+          color: white;
+          font-size: 20px;
+          line-height: 20px;
+          font-weight: 300; }
+		  
+          .modal-align .modal-container-ext .modal-container-int .modal-content ul li {
+            color: white;
+            font-size: 20px;
+            line-height: 24px;
+            font-weight: 300;
+            position: relative;
+            padding-left: 20px;
+            margin-top: 10px; }
+			
+            .modal-align .modal-container-ext .modal-container-int .modal-content ul li:before {
+              content: '';
+              width: 4px;
+              height: 4px;
+              border-radius: 4px;
+              position: absolute;
+              left: 4px;
+              top: 10px;
+              background: #fff; }
+			  
+        .modal-align .modal-container-ext .modal-container-int .modal-content h2 {
+          color: white;
+          font-size: 36px;
+          font-weight: bold;
+          margin-bottom: 20px; }
+		  
+		  
+/*FIM MODAIS*/
+
+		
+
+	  
+	   
+
+
+
+ 
