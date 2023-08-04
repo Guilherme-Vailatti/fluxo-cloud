@@ -2,6 +2,8 @@
    v2.0-modified | 20110126
    License: none (public domain)
 */
+
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -89,7 +91,7 @@ img {
 .orange-line {
   width: 40px;
   height: 7px;
-  background-color: #e46414; }
+  background-color: #A2E3EC; }
 
 .modal-align .orange-line {
   margin-bottom: 10px;
@@ -484,11 +486,12 @@ img {
           filter: grayscale(1) brightness(10); }
 		  
       .modal-align .modal-container-ext .modal-container-int .saiba-mais {
+		font-size: 20px; 
         margin-top: 130px;
-        color: #e46414;
+        color: #A2E3EC;
         display: block;
         text-decoration: none;
-        width: 80px; }
+        width: 100%; }
 		
         .modal-align .modal-container-ext .modal-container-int .saiba-mais:hover {
           text-decoration: underline; }
@@ -560,7 +563,11 @@ img {
           font-weight: bold;
           margin-bottom: 20px; }
 		  
-		  
+.galaxia {
+	margin: 0 auto;
+	width: 38%;
+}
+
 /*FIM MODAIS*/
 
 		
