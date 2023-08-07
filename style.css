@@ -87,6 +87,10 @@ img {
   pointer-events: all;
   transform: scale(0.43) skew(-58deg, 30deg) translate(51px, 65px);
   border-radius: 20px; }
+  
+  .cloud-title {
+	  font-size: 40px;
+  }
 
 .orange-line {
   width: 40px;
@@ -450,7 +454,16 @@ img {
 		perspective: 1000px; 
 		}
 		
+.section-mobile {
+  display: none;
+  padding-bottom: 50px; }
+  
+ .lista-app {
+	 color: #ffffff;
+  }
+  
 
+  
 /*-------------------------MODAL---------------------*/
 
 .modal-align {
@@ -491,7 +504,7 @@ img {
         color: #A2E3EC;
         display: block;
         text-decoration: none;
-        width: 100%; }
+        width: 20%; }
 		
         .modal-align .modal-container-ext .modal-container-int .saiba-mais:hover {
           text-decoration: underline; }
