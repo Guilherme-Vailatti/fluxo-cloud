@@ -142,6 +142,7 @@ img {
   /*margin: 0;*/
   padding: 0; }
   .section-main .container {
+    margin-top: 200px; /*MODIFICADO PARA APRESENTAÇÃO*/
     max-width: 1140px;
     width: 100%;
     /*margin: 0 auto;*/
