@@ -8,7 +8,7 @@
     <title>Arquitetura Cloud</title>
 	<link rel="shortcut icon" href="https://d2nytdlptrqhdi.cloudfront.net/wp-content/themes/senior-2019/content/assets/images/favicon.ico">
     <link rel="shortcut icon" sizes="32x32" href="https://d2nytdlptrqhdi.cloudfront.net/wp-content/themes/senior-2019/content/assets/images/favicon.png">
-    <!--<link rel="stylesheet" href="responsive.css">-->
+     <!--<link rel="stylesheet" href="responsive.css">-->
 	<link rel="stylesheet" href="style.css">
 	<link rel="preload" href="https://use.typekit.net/tdc4dck.css" as="style" onload="this.rel='stylesheet'">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,6 +23,7 @@
 
 	<div class="container">
 		<span class="bkg-fixed-opacity"></span>
+        
 		
 <!--CONTEÚDO PRINCIPAL DO FLUXOGRAMA-->
     <div class="content-main-infografico animated bounceInDown">
@@ -90,6 +91,14 @@
 					<img src="images/servidor-middleware.png" class="icon" alt="Servidores Middleware">
 				</div>	
 				
+                <!--ITEM 8.2 - SERVIDORES DE INSTALAÇÃO-->
+            <div class="content-icon item-8-2" id="item-8-2">
+                <p class="icon-title-min">Servidores de Aplicação</p>
+                <a href="#" class="link-global"></a>
+                <img src="images/servidores-instalacao.png" class="icon" alt="Servidores de Instalação">
+            </div>   
+            
+            
 				<!-- ITEM 9 - BANCO DE DADOS-->
 			<div class="content-icon item-9" id="item-9">
 					<p class="icon-title-min">Banco de Dados</p>
@@ -99,6 +108,7 @@
 				
 				
 				<!-- APLICLAÇÕES -->
+
 			
 				<!-- ITEM 10 - GESTÃO EMPRESARIAL-->
 			<div class="content-icon item-10" id="item-10">
@@ -239,6 +249,19 @@
                     <a href="https://azure.microsoft.com/pt-br/resources/cloud-computing-dictionary/what-is-middleware" target="_Blank" class="saiba-mais">Saiba mais</a>
                 </div>
 				
+                <!-- MODAL 8-2 - SERVIDORES DE APLICAÇÃO -->
+				<div class="modal-content item-8-2">
+                    <div class="orange-line"></div>
+                    <h2>Servidores de Aplicação</h2>
+                    <p>Um <b>Servidor de Aplicação</b> é um tipo de servidor que hospeda e executa aplicativos web.<br>
+                        Ele fornece um ambiente de execução para que os aplicativos possam ser executados e acessados por usuários através da internet.<br>
+                        O servidor de aplicação é responsável por processar as requisições dos clientes, executar os scripts e retornar as respostas adequadas. <br>
+                        <br>
+                        Além disso, um servidor de aplicação também oferece recursos adicionais, como gerenciamento de sessões, controle de acesso, escalabilidade e balanceamento de carga. 
+                        Ele é projetado para lidar com um grande número de requisições simultâneas e garantir a disponibilidade e desempenho dos aplicativos hospedados.</p>
+                    <a href="https://aws.amazon.com/pt/compare/the-difference-between-web-server-and-application-server/" target="_Blank" class="saiba-mais">Saiba mais</a>
+                </div>
+
 				<!-- MODAL 9 - BANCO DE DADOS -->
 				<div class="modal-content item-9">
                     <div class="orange-line"></div>
@@ -427,6 +450,16 @@
             </div>
 
             <!-- MOBILE ITEM -->
+            <div class="content-icon-mobile item-8-2">
+                <div class="icon-mobile" id="item-8-2">
+                    <a href="#" class="link-open-icons">
+                        <div class="icon-container"><img class="img-icon-primary" src="images/servidor-middleware.png" alt="Ícone item-14"></div>
+                        <div class="titulo titulo-item-"><p>Servidores de Aplicação</p></div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- MOBILE ITEM -->
             <div class="content-icon-mobile item-9">
                 <div class="icon-mobile" id="item-9">
                     <a href="#" class="link-open-icons">
@@ -475,6 +508,7 @@
             setTimeout(function(){$('.content-icon.item-2').addClass('active');},900);
             setTimeout(function(){$('.content-icon.item-9').addClass('active');},900);
             setTimeout(function(){$('.content-icon.item-13').addClass('active');},900);
+            setTimeout(function(){$('.content-icon.item-8-2').addClass('active');},900);
   
 
             setTimeout(function(){$('.content-icon.item-1').addClass('active');},1100);
