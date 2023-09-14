@@ -79,7 +79,7 @@ img {
 .link-global {
   width: 130%;
   height: 120px;
-  position: absolute;
+  position:absolute;
   z-index: 2;
   top: auto;
   left: 0;
@@ -141,15 +141,18 @@ img {
   position: relative;
   /*margin: 0;*/
   padding: 0; }
+
   .section-main .container {
-    margin-top: 200px; /*MODIFICADO PARA APRESENTAÇÃO*/
+	 margin-top: 200px; /*MODIFICADO PARA APRESENTAÇÃO*/
     max-width: 1140px;
     width: 100%;
     /*margin: 0 auto;*/
-    background: url(images/nuvem.svg) no-repeat center center; }
+    background: url(images/nuvem-fundo.svg) no-repeat center center; }
   .section-main .content-main-infografico {
     position: relative;
-    height: 805px; }
+    height: 803px; }
+
+
     .section-main .content-main-infografico p {
       font-family: "jaf-domus";
       font-size: 18px;
@@ -235,7 +238,6 @@ img {
 	  perspective: 100px;
 	   }		
 
-		
 	   
 /*ITEM 2 - HTTPS*/
     .section-main .content-main-infografico .item-2 {
@@ -326,6 +328,8 @@ img {
 		perspective: 1000px; 
 		}
 		
+
+
 /*ITEM 8 - SERVIDORES MIDDLEWARE*/
 .section-main .content-main-infografico .item-8 {
       width: 200px;
@@ -339,6 +343,21 @@ img {
 		perspective: 1000px; 
 		}
 		
+/*ITEM 8.2 - SERVIDORES DE APLICAÇÃO*/
+
+.section-main .content-main-infografico .item-8-2 {
+  width: 140px;
+  margin-left: 7px;
+  margin-top: -235px;}
+  
+.section-main .content-main-infografico .item-8-2 .icon-title-min {
+  top:85px;
+  bottom: auto;
+  left: -63px;
+  transform: rotateX(55deg) rotateZ(46deg);
+  perspective: 1000px;
+}
+
 /*ITEM 9 - BANCO DE DADOS*/
 .section-main .content-main-infografico .item-9 {
       width: 225px;
@@ -391,7 +410,7 @@ img {
 .section-main .content-main-infografico .item-12 {
       width: 83px;
       margin-left: -210px;
-      margin-top: -240px; }
+      margin-top: -238px; }
      .section-main .content-main-infografico .item-12 .icon-title-min {
 		font-family: 'Lexend', sans-serif;
 		font-size: 12px;
@@ -424,8 +443,8 @@ img {
 /*ITEM 14 - ACESSO E SEGURANÇA*/
 .section-main .content-main-infografico .item-14 {
 	  width: 93px;
-      margin-left: -300px;
-      margin-top: -288px; }
+      margin-left: -292px;
+      margin-top: -280px; }
      .section-main .content-main-infografico .item-14 .icon-title-min {
 		font-family: 'Lexend', sans-serif;
 		font-size: 12px;
