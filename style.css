@@ -558,7 +558,7 @@ img {
         color: #A2E3EC;
         display: block;
         text-decoration: none;
-        width: 10%; }
+        width: 100%; }
 		
         .modal-align .modal-container-ext .modal-container-int .saiba-mais:hover {
           text-decoration: underline; }
@@ -631,19 +631,19 @@ img {
           margin-bottom: 20px; }
 		  
 .modal-content .item-5 {
-	width: 60%;
+	width: 100%;
 }
 .galaxia {
 	margin: 0 auto;
-	width: 60%;
+	width: 100%;
 
 	
 }
 
 iframe {
 	padding: -15px;
-	margin-top: -15px;
- margin: o auto;
+	margin-top: -5px;
+
 }
 
 
