@@ -554,7 +554,7 @@ img {
 		  
       .modal-align .modal-container-ext .modal-container-int .saiba-mais {
 		font-size: 15px; 
-        margin-top: 130px;
+        margin-top: 30px;
         color: #A2E3EC;
         display: block;
         text-decoration: none;
@@ -641,8 +641,8 @@ img {
 }
 
 iframe {
-	padding: -10px;
-	margin-top: -35px;
+	padding: -15px;
+	margin-top: -15px;
  margin: o auto;
 }
 
