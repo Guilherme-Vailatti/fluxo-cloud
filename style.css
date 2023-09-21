@@ -634,8 +634,11 @@ img {
 	width: 100%;
 }
 .galaxia {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	margin: 0 auto;
-	width: 100%;
+	max-width: 100%;
 
 	
 }
@@ -643,7 +646,7 @@ img {
 iframe {
 	padding: -15px;
 	margin-top: -5px;
-
+ margin: o auto;
 }
 
 
