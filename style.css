@@ -52,7 +52,8 @@ html {
   font-family: "jaf-domus";
   outline: none;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+  -moz-osx-font-smoothing: grayscale; 
+  }
 
 a,
 button {
@@ -69,9 +70,10 @@ img {
 /*--------------__O QUE IMPORTA---___-----*/
 
 .senior-logo {
-  display: block;
+  display: table;
   position: absolute;
   bottom: 100px;
+  top: 650px;
   right: 100px;
   width: 105px; }
   
@@ -87,6 +89,10 @@ img {
   pointer-events: all;
   transform: scale(0.43) skew(-58deg, 30deg) translate(51px, 65px);
   border-radius: 20px; }
+
+.link-global .item-5 {
+  top: -50px;
+}
   
   .cloud-title {
 	  font-size: 40px;
@@ -101,7 +107,20 @@ img {
   margin-bottom: 10px;
   width: 60px; }
   
+  .popover-info {
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    background-color: #7a8591;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    line-height: 19px;
+    border-radius: 15px; }
+
+
   .bkg-fixed-opacity {
+  max-width: 100%;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -142,15 +161,17 @@ img {
   /*margin: 0;*/
   padding: 0; }
 
-  .section-main .container {
+  /*.section-main .container {
 	 margin-top: 200px; /*MODIFICADO PARA APRESENTAÇÃO*/
-    max-width: 1140px;
+    /*max-width: 1140px;
     width: 100%;
-    /*margin: 0 auto;*/
+    margin: 0 auto;
     background: url(images/nuvem-fundo.svg) no-repeat center center; }
+
   .section-main .content-main-infografico {
     position: relative;
-    height: 803px; }
+    display: flex;
+    height: 803px; }*/
 
 
     .section-main .content-main-infografico p {
@@ -199,7 +220,7 @@ img {
         left: auto;
         right: 80%;
         white-space: nowrap; }
-      .section-main .content-main-infografico .icon-title. {
+      .section-main .content-main-infografico .icon-title {
         right: auto;
         left: 100%;
         width: 100%; }
@@ -313,6 +334,7 @@ img {
 	  transform: rotateX(-56deg) rotateZ(-45deg);
 	  perspective: 100px; 
 	  font-size:24px; 
+
 	  } 
 
 /*ITEM 7 - SERVIDORES WEB*/
@@ -482,6 +504,18 @@ img {
 	 color: #ffffff;
   }
   
+
+  .bg-nuvem { 
+  width: 100%;
+  display: table;
+
+      pointer-events: none;
+      padding: 0;
+      margin: 0;
+      width: 1130px;
+      left: 50%;
+      top: 50%; }
+
 
   
 /*-------------------------MODAL---------------------*/
