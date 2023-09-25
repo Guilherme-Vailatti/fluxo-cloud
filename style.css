@@ -631,8 +631,12 @@ img {
           margin-bottom: 20px; }
 		  
 .modal-content .item-5 {
-	width: 100%;
+  display: none;
+  padding: 100px 30px 65px;
+
 }
+
+
 .galaxia {
 	display: flex;
 	align-items: center;
